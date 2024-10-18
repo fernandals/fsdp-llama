@@ -1,0 +1,42 @@
+Train Epoch: 1 	Loss: 0.183003
+Test set: Average loss: 0.0463, Accuracy: 9846/10000 (98.46%)
+
+Train Epoch: 2 	Loss: 0.073259
+Test set: Average loss: 0.0477, Accuracy: 9840/10000 (98.40%)
+
+Train Epoch: 3 	Loss: 0.057330
+Test set: Average loss: 0.0380, Accuracy: 9873/10000 (98.73%)
+
+Train Epoch: 4 	Loss: 0.047348
+Test set: Average loss: 0.0343, Accuracy: 9894/10000 (98.94%)
+
+Train Epoch: 5 	Loss: 0.044671
+Test set: Average loss: 0.0323, Accuracy: 9902/10000 (99.02%)
+
+Train Epoch: 6 	Loss: 0.041760
+Test set: Average loss: 0.0338, Accuracy: 9887/10000 (98.87%)
+
+Train Epoch: 7 	Loss: 0.038925
+Test set: Average loss: 0.0313, Accuracy: 9904/10000 (99.04%)
+
+Train Epoch: 8 	Loss: 0.039012
+Test set: Average loss: 0.0304, Accuracy: 9901/10000 (99.01%)
+
+Train Epoch: 9 	Loss: 0.036169
+Test set: Average loss: 0.0308, Accuracy: 9901/10000 (99.01%)
+
+Train Epoch: 10 	Loss: 0.036146
+Test set: Average loss: 0.0297, Accuracy: 9908/10000 (99.08%)
+
+CUDA event elapsed time: 326.151sec
+FullyShardedDataParallel(
+  (_fsdp_wrapped_module): Net(
+    (conv1): Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1))
+    (conv2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1))
+    (dropout1): Dropout(p=0.25, inplace=False)
+    (dropout2): Dropout(p=0.5, inplace=False)
+    (fc1): Linear(in_features=9216, out_features=128, bias=True)
+    (fc2): Linear(in_features=128, out_features=10, bias=True)
+  )
+)
+
